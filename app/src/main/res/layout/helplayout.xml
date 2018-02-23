@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CAFF70">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sss"
+        android:gravity="center"
+        android:text="魑魅魍魉, 柳陌花丛 ,万家灯火,\n搔首踟躇, 餐葩饮露, 蜂媒蝶使,\n鳏寡孤独, 炫昼缟夜, 濡沫涸辙,\n不落窠臼, 水木清华, 鹿裘未完,\n鹊返鸾回, 鹤发童颜, 疾首蹙眉,\n随遇而安, 尸鸠之平, 浪蝶游蜂,\n凤凰于飞, 寒蝉僵鸟, 窗明几净,\n百喙难辩, 暴雨梨花, 南柯一梦,\n醍醐灌顶, 不求甚解, 欲壑难填,\n喟然长叹, 白云苍狗, 竭泽焚薮,\n干将莫邪, 江山如画, 空谷幽兰,\n蚍蜉撼树, 傲雪欺霜, 桑榆末景,\n沽名吊誉, 鸿断鱼沉, 豕虎传讹"
+        android:textColor="#ADFF2F"
+        android:textSize="25dp"/>
+
+</LinearLayout>

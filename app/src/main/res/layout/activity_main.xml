@@ -1,0 +1,431 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#CD69C9"
+    tools:context=".MainActivity">
+    <!-- 上方的四个显示框 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:background="#ffffff"
+            android:gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:orientation="vertical"
+        android:background="#000000"
+        android:layout_gravity="center">
+        <!-- 第一行按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/word11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="的"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="發"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="發"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:orientation="vertical"
+            android:background="#000000"></LinearLayout>
+        <!-- 第二行按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+
+            <TextView
+                android:id="@+id/word21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+            />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+            />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word23"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+            />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="是"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:orientation="vertical"
+            android:background="#000000"></LinearLayout>
+
+        <!-- 第三行按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/word31"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="看"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word32"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="了"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word33"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="哦"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word34"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="哦"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:orientation="vertical"
+            android:background="#000000"></LinearLayout>
+
+        <!-- 第四行按钮 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/word41"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="看"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word42"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="了"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word43"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="哦"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="#000000" />
+
+            <TextView
+                android:id="@+id/word44"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="哦"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!-- 下方的按钮和显示倒计时-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="30dp">
+        <!--再来一局-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:text="Restart"
+            android:layout_weight="1"
+            android:id="@+id/Button_restart" />
+
+
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+        <!--显示倒计时-->
+        <TextView
+            android:id="@+id/countdowntime"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Welcome!!!"
+            android:textSize="15dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="#E0FFFF"
+            android:textColor="#FF7F00" />
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#000000" />
+        <!--撤销-->
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/Button_undo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:text="Undo" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
